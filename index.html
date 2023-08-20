@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><MarvelNews></title>
+    <title>MarvelNews</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/marvel_logo.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
         <nav>
             <div class="navContainer">
                 <div class="logo">
-                    <img src="assets/marvel_logo.png" alt="" id="logoImg">
+                    <img src="assets/spidy.png" alt="" id="logoImg">
                 </div>
                 <div class="quickSelects">
                     
@@ -29,70 +30,25 @@
         </nav>
     
         <main>
-            <div class="mainContainer">
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                <div class="card">
-                    <div class="cardImg"></div>
-                    <div class="title"></div>
-                </div>
-                
+            <div class="mainContainer" id="cardContainer">
+               
             </div>
         </main>
     </div>
+
+    <template id="cardTemplate">
+        <div class="card" id="card">
+            <div class="cardImg" >
+                <img src="" alt="MarvelNews" id="cardImg">
+            </div>
+            <div class="title" id="title">
+                <h2>Title</h2>
+            </div>
+            <p id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quis itaque exercitationem minus aliquam rerum recusandae laudantium expedita praesentium? Consequuntur!</p>
+        </div>
+    </template>
+
+    
+    <script src="script.js"></script>
 </body>
 </html>
