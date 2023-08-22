@@ -1,7 +1,11 @@
 const api_Key = "2edddd9947714a808006f2243d16be8c";
 const url ="https://newsapi.org/v2/everything?q=";
 
-window.addEventListener('load',()=> fetchData("Marvel"));
+window.addEventListener('load',()=> fetchData("marvel"));
+
+function reload(){
+    window.location.reload();
+}
 
 async function fetchData(query){
     const res = await fetch(`${url}${query}&apikey=${api_Key}`);
@@ -37,5 +41,27 @@ function fillData(cardClone, article){
     newsTitle.innerHTML = article.title;
     newsDesc.innerHTML = article.description;
 
+    cardClone.firstElementChild.addEventListener('click',()=>{
+        window.open(article.url,"_blank");
+    })
 }
 
+const currSelectedItem = null;
+
+function onNavItemClick(id){
+    fetchData(id);
+    const navItem = document.getElementById(id);
+    currSelectedItem?.classList.remove('active');
+    currSelectedItem = navItem;
+    currSelectedItem.classList.add('active');
+}
+
+const search = document.getElementById('search');
+const searchButton = document.getElementById('searchButton');
+
+searchButton.addEventListener('click',()=>{
+    const query = search.value;
+    if(!query) return;
+    fetchData(query);
+    currSelectedItem?.classList.remove('active');
+});

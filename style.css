@@ -1,9 +1,14 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@100&family=Roboto&display=swap');
+
 
 *{
 margin: 0%;
 padding: 0%;
 box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     height: 100vh;
@@ -80,6 +85,7 @@ ul{
     padding: 10px;
     overflow: hidden;
     color: white;
+    font-family: roboto;
     
 }
 
@@ -101,6 +107,10 @@ ul{
 
 .hover-link:active{
     color: purple;
+}
+
+.selects.active{
+    color: #006aff;
 }
 
 .cardImg{

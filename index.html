@@ -12,19 +12,22 @@
         <nav>
             <div class="navContainer">
                 <div class="logo">
-                    <img src="assets/spidy.png" alt="" id="logoImg">
+                    <a href="" onclick="reload">
+                        <img src="assets/spidy.png" alt="" id="logoImg">
+                    </a>
+                    
                 </div>
                 <div class="quickSelects">
                     
                     <ul>
-                        <li class="hover-link">Movies</li>
-                        <li class="hover-link">Comics</li>
-                        <li class="hover-link">Games</li>
+                        <li class="hover-link selects" id="Movies" onclick="onNavItemClick('Movies')">Movies</li>
+                        <li class="hover-link selects" id="Comics" onclick="onNavItemClick('Comics')">Comics</li>
+                        <li class="hover-link selects" id="Games" onclick="onNavItemClick('Games')">Games</li>
                     </ul>
                 </div>
                 <div class="searchBar">
-                    <input type="text" class="search" placeholder="e.g. Spider-Man">
-                    <button class="searchButton">search</button>
+                    <input type="text" class="search" id="search" placeholder="e.g. Spider-Man">
+                    <button class="searchButton" id="searchButton">search</button>
                 </div>
             </div>
         </nav>
