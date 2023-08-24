@@ -1,12 +1,12 @@
 # marvelNews
 
-The Spider-Man Daily Bugle is a dynamic Marvel news hub that combines sleek HTML structure with the flexibility of CSS Flexbox for an engaging layout. Powered by JavaScript, it fetches the latest news from a news API and populates the page using the fillData function. This function clones news cards based on the API's data, ensuring you're always in the loop with the latest Marvel updates.
+The Spider-Man **Daily Bugle** is a dynamic Marvel news hub that combines sleek HTML structure with the flexibility of CSS Flexbox for an engaging layout. Powered by JavaScript, it fetches the latest news from a news API and populates the page using the fillData function. This function clones news cards based on the API's data, ensuring you're always in the loop with the latest Marvel updates.
 
-Key Features:
+**Key Features:**
 
-Structured with HTML: The website's solid structure is built using HTML, providing a robust foundation for content.
+Structured with **HTML:** The website's solid structure is built using HTML, providing a robust foundation for content.
 
-Flexbox Layout: CSS Flexbox creates a responsive and visually appealing layout, adapting to various screen sizes seamlessly.
+**Flexbox Layout**: CSS Flexbox creates a responsive and visually appealing layout, adapting to various screen sizes seamlessly.
 
 Dynamic News: JavaScript fetches news from a news API, and the fillData function dynamically creates news cards based on the fetched data.
 
