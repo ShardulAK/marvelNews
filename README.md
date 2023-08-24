@@ -16,6 +16,6 @@ Stay Informed: Whether you're a Spidey fan or a Marvel enthusiast, this website 
 
 Experience the website in action with this sample video showcasing how it works. Dive into the world of Marvel news, Spider-Man style, and see the dynamic features and engaging content come to life
 
+https://github.com/ShardulAK/marvelNews/assets/101564597/f344cee1-32b5-47a2-a61e-92c85148169e
 
-Uploading Screen Recording 2023-08-22 at 5.01.19 PM.mov…
 
